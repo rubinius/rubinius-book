@@ -8,8 +8,6 @@
 
 ## Code of Conduct
 
-<h2 id="code-of-conduct">Code of Conduct</h2>
-
 <p><em>The Rubinius project is committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, religion, or non-religion.</em></p>
 
 <p>As part of our commitment, we adopt a <a href="/code-of-conduct">Code of Conduct</a> that applies to <em>any</em> Rubinius project, space, and event, whether online or in-person. If you are subject to, or witness to, possible violations of the Code of Conduct, see the <a href="reporting-guidelines">detailed reporting guidelines</a>.</p>
