@@ -20,4 +20,4 @@ Participation in the Rubinius book project is governed by the Rubinius [Code of 
 
 ## License
 
-[Attribution-NonCommercial-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
+[Attribution-NonCommercial-ShareAlike 4.0 International ](http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
