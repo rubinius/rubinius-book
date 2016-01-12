@@ -1,9 +1,6 @@
 # Community
 
-<blockquote cite="https://en.wikipedia.org/wiki/Toni_Morrison">
-  Remember that your real job is that if you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else.
-  <span class="quote-attribution">&mdash; Toni Morrison</span>
-</blockquote>
+>  Remember that your real job is that if you are free, you need to free somebody else. If you have some power, then your job is to empower somebody else. &mdash; Toni Morrison
 
 
 ## Code of Conduct
