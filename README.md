@@ -2,11 +2,11 @@
 
 This is a book about building a community and language platform.
 
-It is about building a community because all technology is embedded in a human context. If we want a community with desirable characteristics, we have to be purposeful about building and nurturing the community.
+The book is about building a community because all technology is embedded in a human context. We must deliberately build and nurture the community if we want it to have desirable characteristics.
 
-It is about building a language platform because languages are the most powerful tools we have created for processing and sharing information. Technology is essential to advancing our understanding of the world and solving problems. Human health and well-being is intimately intertwined with our developing technology.
+The book is about building a language platform because languages are the most powerful tools we have created to process and share information. Technology is essential to advancing our understanding of the world and solving problems. Human health and well-being is intimately intertwined with our developing technology.
 
-In the span of human history, computers are very young. The Internet is even younger and its ability to connect people across vast physical distances, cultures, languages, political systems, and belief systems is unprecedented. As people who live in this time and enjoy tremendous privileges, we are obligated to try to help people use these systems for improving, not just changing, the world.
+In the span of human history, computers are very young. The Internet is even younger, but has unprecedented power to connect people across vast physical distances, cultures, languages, political systems, and belief systems. Those of us enjoying the tremendous privileges of modern life are obligated to help other people use these systems for improving, not just changing, the world.
 
 This is a book about one small attempt to do that.
 
