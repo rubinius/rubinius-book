@@ -71,6 +71,7 @@ _Part I - The Rubinius Language Platform_
 * _Console: Portal to Another World_
 * _Atom Terminal: Joining Two Worlds_
 * _Instructions: The Essence of Program Behavior_
+* _Interpreters: A Program at Play_
 * _Parsers: Seeing Trees in a Forest of Characters_
 * _Community: Playing Well Together_
 * _Compilers: Weaving Webs of Behavior_

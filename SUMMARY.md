@@ -6,7 +6,7 @@
   * [Console: Portal to Another World](part_i/console.md)
   * [Atom Terminal: Joining Two Worlds](part_i/atom_terminal.md)
   * [Instructions: The Essence of Program Behavior](part_i/instructions.md)
-  * [Interpreters: A Program at Play](part_i/interpretaters.md)
+  * [Interpreters: A Program at Play](part_i/interpreters.md)
   * [Parsers: Seeing Trees in a Forest of Characters](part_i/parsers.md)
   * [Community: Playing Well Together](part_i/community.md)
     * [Code of Conduct](part_i/code_of_conduct.md)
