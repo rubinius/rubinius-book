@@ -1,4 +1,4 @@
-# What, How, Why: Understanding Program Behavior
+# Inspectability: Understanding Program Behavior
 
 When we write a program, we have a specific expectation for the behavior we want from the program when it runs. But these expectations are almost whimsical. They are almost pure imagination. Nothing requires them, as symbols in a file or diagrams or whatever, to _behave_ in any particular way. It is only when we run our program that this pure imagination becomes real.
 
@@ -19,3 +19,7 @@ The DTrace subsytem includes a kernel component that executes a very specificall
 DTrace separates monitoring the system from the system’s functionality, yet still provides sufficient flexibility to gather relevant information in a specific context.
 
 Three principles guided the design of DTrace: 1. zero cost when not running, 2. stability and security (or it would not be allowed in production), and 3. reasonable cost when running (ie not just turning on a firehose that requires expensive post processing, but rather emiting only the specifically desired information and possibly doing initial data processing at the collection site.)
+
+The principles behind the DTrace architecture guided the design of Rubinius as an inspectable system.
+
+## A Hierarchy of Information

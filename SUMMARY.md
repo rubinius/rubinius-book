@@ -14,7 +14,7 @@
     * [Advice Process](part_i/advice_process.md)
   * [Compilers: Weaving Webs of Behavior](part_i/compilers.md)
   * [Scopes: Keeping Things in Tidy Boxes](part_i/scopes.md)
-  * [What, How, Why: Understanding Program Behavior](part_i/what_index.md)
+  * [Inspectability: Understanding Program Behavior](part_i/what_index.md)
     * [Logging](part_i/what_logging.md)
     * [Diagnostics](part_i/what_diagnostics.md)
     * [Measuring](part_i/what_measuring.md)
