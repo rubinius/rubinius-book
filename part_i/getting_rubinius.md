@@ -50,15 +50,27 @@ One of the critical Rubinius dependencies is LLVM version 3.6+. Since LLVM takes
 
     $ [sudo] apt-get install -y git clang-3.6 automake flex bison make ruby-dev llvm-dev-3.6 zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libedit-dev
 
+Use the following configure command in the build instructions below:
+
+    $ ./configure --prefix=/path/to/install/dir/rbx-<version> --llvm-config=llvm-config-3.6
+
 #### Redhat/Fedora
 
     $ [sudo] yum install -y git clang-3.6 automake flex bison make ruby-devel rubygems llvm-static llvm-devel zlib-devel libyaml-devel openssl-devel gdbm-devel readline-devel ncurses-devel
+
+Use the following platform-specific configure command in the build instructions below:
+
+    $ ./configure --prefix=/path/to/install/dir/rbx-<version>
 
 #### OS X
 
 The easiest way to install dependencies on OS X is to use [Homebrew](http://mxcl.github.com/homebrew/). If it's not already installed, also install the latest version of [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) or the [Command Line Tools](https://github.com/kennethreitz/osx-gcc-installer#readme).
 
     $ brew install git openssl readline libyaml gdbm llvm38
+
+Use the following platform-specific configure command in the build instructions below:
+
+    $ ./configure --prefix=/path/to/install/dir/rbx-<version> --llvm-config=$(brew --prefix llvm38)/bin/llvm-config
 
 ### Building
 
@@ -67,6 +79,6 @@ The easiest way to install dependencies on OS X is to use [Homebrew](http://mxcl
     $ tar -xjf rubinius-release-<version>.tar.bz2
     $ cd rubinius-<version>
     $ [sudo] bundle install
-    $ ./configure --prefix=/path/to/install/dir/rbx-<version> --llvm-config=$(brew --prefix llvm38)/bin/llvm-config
+    $ <platform-specific configure command>
     $ rake build
     $ [sudo] rake install
