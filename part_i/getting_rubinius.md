@@ -6,7 +6,7 @@ Rubinius can be installed on most Unix/Linux operating systems. Rubinius does no
 
 ### Docker
 
-Rubinius provides Docker images based on Ubuntu 15.10 and 14.04. The images are automatically built on Docker Hub and available at the Rubinius Docker organization. To use the Rubinius Docker image, follow these steps:
+Rubinius provides Docker images based on Ubuntu 14.04. The images are automatically built on Docker Hub and available at the Rubinius Docker organization. To use the Rubinius Docker image, follow these steps:
 
       your-shell$ docker pull rubinius/docker
       your-shell$ docker run -it rubinius/docker bash
