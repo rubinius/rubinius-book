@@ -23,3 +23,25 @@ Three principles guided the design of DTrace: 1. zero cost when not running, 2. 
 The principles behind the DTrace architecture guided the design of Rubinius as an inspectable system.
 
 ## A Hierarchy of Information
+
+If the cost of collecting, transferring, and storing logs were negligible, all we would need for an inspectable system are logs.
+
+A typical log entry contains: 1. a timestamp, 2. some categorization of the event, and 3. some description. Given enough log entries, we can understand exactly what an application is doing at a partiular point in time.
+
+From the log entries, we can derive metrics: periodicity, duration, frequency, and other measures. To add monitoring, we could layer some sort of alerting system on these measures we derive from the logs.
+
+We could also derive sequence (in what order events occurred), adjacency (which events occurred together), and direct causality (which events state they triggered other events). With this information, we can analyze the system behavior at a later time.
+
+However, the cost of a log with enough detail to support an inspectable system is very high. We include efficiency in our definition of an inspectable system because no one will use a system that doesn't do the work they need in a reasonable amount of time.
+
+To make the system efficient, we need a way to get the information we want while doing less work to get it. We can achieve this by separating different kinds of information.
+
+In Rubinius, we separate the information mostly by ways we interact with a running program:
+
+1. Logging
+2. Diagnostics
+3. Metrics
+4. Profiling
+5. Analysis
+
+Each of these are described in the next sections.
