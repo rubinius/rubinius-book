@@ -8,13 +8,13 @@ There are two things I want to change about the way we typically view programmin
 
 The first is that programming is _too special_. Far too many people are excluded from programming and we are not doing enough to change that. I want to make programming mundane.
 
-> It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so. &mdash; Mark Twain
-
 The second is that programming is too limited. We have extremely crude and primitive tools for programming. Even worse, much of the _conventional knowledge_ about programming is just wrong.
 
 For example, you may have heard some of these: register virtual machines are faster than stack machines, optimizing compilers can't beat hand-tuned assembly language, garbage collection is way more costly than manual memory management, static typing makes programs safer than dynamic typing, reference counting garbage collectors aren't as good as tracing collectors, tracing JITs are better than method JITs, dynamically typed languages are slow, functional programming is better for concurrency than object-oriented programming, mutable state makes concurrency hard, event-oriented languages can handle more connections than languages using threads.
 
 I could go on and on. While some of these assertions may be partially true, or more true in a particular context, they are not absolutely true. They represent a small fraction of the _things we know that just ain't so_.
+
+> It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so. &mdash; Mark Twain
 
 Why is there so much misinformation in programming? I'm not sure. I doubt that there is necessarily more in programming than in other fields. For a philosophical inquiry into why there is generally so much misinformation, you may enjoy _On Bullshit_, by Harry G. Frankfurt.
 
