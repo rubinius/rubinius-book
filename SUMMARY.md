@@ -22,6 +22,7 @@
     * [Metrics](part_i/inspectability.md#metrics)
     * [Time Profiles](part_i/inspectability.md#time-profiles)
     * [Analysis](part_i/inspectability.md#analysis)
+  * [Managed Memory: A History for Programs](part_i/managed_memory.md)
   * [Garbage Collection: Stay in Touch to Stay Alive](part_i/garbage_collection.md)
   * [Just-In-Time Compiler: Using the Machine Under the Machine](part_i/jit_compiler.md)
   * [CodeDB: A Memory for Programs](part_i/codedb.md)
