@@ -70,7 +70,7 @@ The easiest way to install dependencies on OS X is to use [Homebrew](http://mxcl
 
 Use the following platform-specific configure command in the build instructions below:
 
-    $ ./configure --prefix=/path/to/install/dir/rbx-<version> --llvm-config=$(brew --prefix llvm38)/bin/llvm-config
+    $ ./configure --prefix=/path/to/install/dir/rbx-<version> --llvm-config=$(brew --prefix llvm38)/bin/llvm-config-3.8
 
 ### Building
 
