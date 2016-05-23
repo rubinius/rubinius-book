@@ -1,6 +1,6 @@
 # Releases
 
-As described in the [versioning scheme](/part_i/versioning.hmtl) section, a Rubinius release is a pair (EPOCH.SEQ, SHA) representing a function from version numbers to git commit SHAs.
+As described in the [versioning scheme](/part_i/versioning.html) section, a Rubinius release is a pair (EPOCH.SEQ, SHA) representing a function from version numbers to git commit SHAs.
 
 A _release_ is implemented as a git tag on the master branch, and from this we can automatically derive the version number, the date of the release, and the commit SHA.
 
