@@ -1,8 +1,8 @@
 # Inspectability: Understanding Program Behavior
 
-When we write a program, we have a specific expectation for the behavior we want from the program when it runs. But these expectations are almost whimsical. They are almost pure imagination. Nothing requires them, as symbols in a file or diagrams or whatever, to _behave_ in any particular way. It is only when we run our program that this pure imagination becomes real.
+When we write a program, we have a specific expectation for the behavior we want from the program when it runs. But these expectations are almost whimsical. They are almost pure imagination. Nothing requires our programs, as symbols in a file or diagrams or whatever, to _behave_ in any particular way. It is only when we run our program that this pure imagination becomes real.
 
-This fact of the difference between programs as written and programs as run does not depend on any characteristic of the particular programming language. A common fallacy is that a program in a statically typed language is more specific than a program in a dynamically typed language. Even the statically typed program must be run through the type-checker before assertions about the program are real.
+This fact of the difference between _programs as written_ and _programs as run_ does not depend on any characteristic of the particular programming language. A common fallacy is that a program in a statically typed language is more specific than a program in a dynamically typed language. Even the statically typed program must be run through the type-checker before assertions about the program are real.
 
 Another fallacy is that interactive systems do not suffer from this divide between a program as written and a program as run. In fact, it does not matter how small we make the unit of execution, there is still some piece of code as expressed in symbols or diagrams, and then that piece of code running. The feedback may be much quicker if we are typing a line of code at a time into a REPL and it being run. But there are still two distinct states, and a single line of code in a high-level language can represent extensive, complex behavior.
 
