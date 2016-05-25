@@ -80,6 +80,7 @@ _Part I - The Rubinius Language Platform_
 * _Garbage Collection: Stay in Touch to Stay Alive_
 * _Just-In-Time Compiler: Using the Machine Under the Machine_
 * _CodeDB: A Memory for Programs_
+* _Debugging the Platform_
 
 _Part II - Understanding Programming Languages_
 

@@ -27,6 +27,7 @@
   * [Garbage Collection: Stay in Touch to Stay Alive](part_i/garbage_collection.md)
   * [Just-In-Time Compiler: Using the Machine Under the Machine](part_i/jit_compiler.md)
   * [CodeDB: A Memory for Programs](part_i/codedb.md)
+  * [Debugging the Platform](part_i/debugging.md)
 * [Part II - Understanding Programming Languages](part_ii/index.md)
 * [Part III - Writing Your Programming Language](part_iii/index.md)
 * [Part IV - Working in the "Real World"](part_iv/index.md)
