@@ -5,6 +5,17 @@ Sometimes flaws exist within the Rubinius Platform itself. Here are some guideli
 ## LLDB
 The `lldb` debugger is part of the `LLVM` suite of tools. It's beyond the scope of this book to describe installation and configuration of these tools, so please google for `llvm installation` for your host OS for guidance.
 
+### Attach To Crashed Process
+If the runtime crashes with a SEGV or similar, the process will exit with a backtrace. In the old days a core file would be left behind that could be read by a debugger and used for determing the cause of the crash. Most modern OSes set the core file limit to 0 so no file gets written at all. 
+
+Rubinius offers an alternative. It provides an environment variable along with a timeout (registered in minutes) that will pause the crashing process and provide time for the programmer to attach with a debugger. To enable this functionality, set the `RBX_PAUSE_ON_CRASH` to the number of minutes it should pause.
+
+```
+% RBX_PAUSE_ON_CRASH=60 rbx script.rb
+```
+
+Setting the variable to a zero or negative number will pause the process during a crash for 60 seconds before exiting. Using any positive integer and Rubinius will pause for that number of minutes before exiting.
+
 ### Run Specs Under LLDB
 Occasionally the platform `specs` will uncover a bug in the runtime that causes a crash. Here's the command for running specs inside the debugger to catch the crash.
 
