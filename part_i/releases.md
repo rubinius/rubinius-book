@@ -6,7 +6,15 @@ A _release_ is implemented as a git tag on the master branch, and from this we c
 
 A _release artifact_ is a source tarball, Docker image, or binary package for a particular platform.
 
-The Rubinius release process is fully automated and initiated by pushing a git tag of the form “vX.Y”. Any Rubinius contributor is able to create a Rubinius release.
+The Rubinius release process is fully automated and initiated by pushing a git tag of the form “vX.Y”. Any Rubinius contributor is able to create a Rubinius release. The command to release is quite simple.
+
+```
+% scripts/tag.sh tag
+Fetching origin
+From https://github.com/rubinius/rubinius
+Tagging v3.34 as "Version 3.34 (2016-06-04)"
+% git push origin master --tags # push tag to repository which kicks off release mechanism
+```
 
 When the git tag is pushed to GitHub, an automated process builds various release artifacts and updates [the Rubinius website](http://rubinius.com).
 
