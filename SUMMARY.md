@@ -1,5 +1,5 @@
-* [Preface](preface.md)
-* [Part I - The Rubinius Language Platform](part_i/index.md)
+* [Preface](manuscript/preface.md)
+* [Part I - The Rubinius Language Platform](manuscript/part_i.md)
   * [Introducing Rubinius](introducing_rubinius.md)
   * [Getting Rubinius](part_i/getting_rubinius.md)
     * [Versioning](part_i/versioning.md)
