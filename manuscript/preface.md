@@ -2,40 +2,40 @@
 
 > Nothing pleases people more than to go on thinking what they have always thought, and at the same time imagine that they are thinking something new and daring; it combines the advantage of security with the delight of adventure &mdash; TS Eliot
 
-Nothing in this book is really new. There are certainly no silver bullets that will make you wildly rich, world famous, or powerful as presidents. However, I do hope your view of programming will change after reading it. The change may be slight, or it may be substantial, but the change in your perspective is the reason for this book.
+Nothing in this book is really new. No silver bullets that will make you wildly rich, world famous, or powerful as presidents. My hope is to change your view of programming.
 
-There are two things I want to change about the way we typically view programming.
+I want to change two things about how we typically view programming. First, programming is *too special*. Far too many people are excluded from programming. I want to make programming *mundane*. Second, programming is *too limited*. We have extremely crude and primitive tools for programming. Even worse, much of the conventional knowledge about programming is just wrong. I want to make programming a *powerful* tool broadly used to solve problems.
 
-The first is that programming is _too special_. Far too many people are excluded from programming and we are not doing enough to change that. I want to make programming mundane.
+The false fables of programming are the most disturbing.
 
-The second is that programming is too limited. We have extremely crude and primitive tools for programming. Even worse, much of the _conventional knowledge_ about programming is just wrong.
+I've heard all of these: register virtual machines are faster than stack machines; optimizing compilers can't beat hand-tuned assembly language; garbage collection is way more costly than manual memory management; static typing makes programs safer than dynamic typing, reference counting garbage collectors aren't as good as tracing collectors; tracing JITs are better than method JITs; dynamically typed languages are slow; functional programming is better for concurrency than object-oriented programming; mutable state makes concurrency hard; event-oriented programs can handle more connections than programs using threads.
 
-For example, you may have heard some of these: register virtual machines are faster than stack machines, optimizing compilers can't beat hand-tuned assembly language, garbage collection is way more costly than manual memory management, static typing makes programs safer than dynamic typing, reference counting garbage collectors aren't as good as tracing collectors, tracing JITs are better than method JITs, dynamically typed languages are slow, functional programming is better for concurrency than object-oriented programming, mutable state makes concurrency hard, event-oriented languages can handle more connections than languages using threads.
-
-I could go on and on. While some of these assertions may be partially true, or more true in a particular context, they are not absolutely true. They represent a small fraction of the _things we know that just ain't so_.
+I could go on and on. While some of these assertions may be partially true, or more true in a particular context, they are not absolutely true. They represent a small fraction of the *things we know that just ain't so*.
 
 > It ain't what you don't know that gets you into trouble. It's what you know for sure that just ain't so. &mdash; Mark Twain
 
-Why is there so much misinformation in programming? I'm not sure. I doubt that there is necessarily more in programming than in other fields. For a philosophical inquiry into why there is generally so much misinformation, you may enjoy _On Bullshit_, by Harry G. Frankfurt.
+Why is there so much misinformation in programming? I'm not sure. I doubt there is necessarily more in programming than in other fields. For a philosophical inquiry into misinformation, I recommend *On Bullshit*, by Harry G. Frankfurt.
 
 > Sometimes the questions are complicated and the answers are simple &mdash; Dr. Seuss
 
-While I can't offer a satisfying answer to why this misinformation about programming exists, I can offer an antidote: the opportunity to work with a system that takes many of these supposed _either A or B_ aspects and combines them into a comprehensive, integrated whole.
+I may not have a satisfying answer for the misinformation programming, but I can offer an antidote: a system that combines the supposed *either A or B* concepts into a comprehensive and integrated whole.
 
-This is a principle that you can apply widely: When told that you can have A or B, ask why you cannot have _A and B_. In mathematics, there is this idea of a _dual_. For example, in Euclidean geometry, lines are dual to points. Take a theorem and swap lines for points and vice versa and the theorem is still true.
+This is a principle that applies widely: When confronted with *A or B*, consider why not *A and B*. In mathematics, there is the concept of a *dual*. For example, in Euclidean geometry, lines are dual to points. Take a theorem and swap lines for points and vice versa and the theorem is still true.
 
-In fact, we would think it silly for someone to tell us we could have lines or points, but not both, in geometry. But when we are progamming, we tend to accept, as if some law of the universe, that we can have _either_ static typing _or_ dynamic typing, and even worse, that one is "better" than the other.
+It's not that one *substitutes* for the other. We don't replace lines with points, or vice-versa, eliminating the opposite one. In fact, these concepts are frequently defined in terms of each other. The familiar, "a line is the shortest distance between two points".
+
+We would think it silly to be told in geometry we could have lines or points, but not both. But when we are programming, we tend to accept, as if some law of the universe, that we can have *either* static typing *or* dynamic typing, for example, and even worse, that one is "better" than the other.
 
 When I look at things I hear about programming that are untrue, I notice two sorts of confusion: mistaking things that are actually different as being the same, and things that are the same as being different. This led me to formulate **The Eight Fallacies of Programming**. These aren't some special laws or something, they are simply observations.
 
-1. _Same Scale_
-2. _Same Risk_
-3. _Same Cost_
-4. _Same Granularity_
-5. _Same Abstraction_
-6. _Same Temporality_
-7. _Same Order_
-8. _Same Applicability_
+1. *Same Scale*
+2. *Same Risk*
+3. *Same Cost*
+4. *Same Granularity*
+5. *Same Abstraction*
+6. *Same Temporality*
+7. *Same Order*
+8. *Same Applicability*
 
 > You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete. &mdash; R. Buckminster Fuller
 
@@ -64,31 +64,31 @@ That sort of behavior is unhelpful and unwelcomed here. In its place, we're goin
 
 ## Organization of This Book
 
-_Part I - The Rubinius Language Platform_
+*Part I - The Rubinius Language Platform*
 
-* _Introducing Rubinius_
-* _Getting Rubinius_
-* _Console: Portal to Another World_
-* _Atom Terminal: Joining Two Worlds_
-* _Instructions: The Essence of Program Behavior_
-* _Interpreters: A Program at Play_
-* _Parsers: Seeing Trees in a Forest of Characters_
-* _Community: Playing Well Together_
-* _Compilers: Weaving Webs of Behavior_
-* _Scopes: Keeping Things in Tidy Boxes_
-* _What, How, Why: Understanding Program Behavior_
-* _Garbage Collection: Stay in Touch to Stay Alive_
-* _Just-In-Time Compiler: Using the Machine Under the Machine_
-* _CodeDB: A Memory for Programs_
-* _Debugging the Platform_
+* *Introducing Rubinius*
+* *Getting Rubinius*
+* *Console: Portal to Another World*
+* *Atom Terminal: Joining Two Worlds*
+* *Instructions: The Essence of Program Behavior*
+* *Interpreters: A Program at Play*
+* *Parsers: Seeing Trees in a Forest of Characters*
+* *Community: Playing Well Together*
+* *Compilers: Weaving Webs of Behavior*
+* *Scopes: Keeping Things in Tidy Boxes*
+* *What, How, Why: Understanding Program Behavior*
+* *Garbage Collection: Stay in Touch to Stay Alive*
+* *Just-In-Time Compiler: Using the Machine Under the Machine*
+* *CodeDB: A Memory for Programs*
+* *Debugging the Platform*
 
-_Part II - Understanding Programming Languages_
+*Part II - Understanding Programming Languages*
 
-_Part III - Writing Your Programming Language_
+*Part III - Writing Your Programming Language*
 
-_Part IV - Working in the "Real World"_
+*Part IV - Working in the "Real World"*
 
-_Part V - Rubinius Reference_
+*Part V - Rubinius Reference*
 
 
 ## Audience for This Book
