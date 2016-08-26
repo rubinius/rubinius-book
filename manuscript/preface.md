@@ -93,8 +93,25 @@ That sort of behavior is unhelpful and unwelcomed here. In its place, we're goin
 
 ## Audience for This Book
 
+This book is written for anyone who is interested in learning about programming languages, including virtual machines, compilers, garbage collectors, and the tools to understand and debug these systems.
+
+The book does not assume any previous experience with systems like these or with programming in general, but it does assume the reader has a willingness to learn and to follow references to other works that will help build the background necessary to fully benefit from the material presented here.
+
 ## Conventions for This Book
+
+This book tries to use as simple formatting and link directly to source code where necessary. Preformatted blocks of text, like the following,
+
+```
+This is a preformatted block of text
+```
+
+are used for various content including commands that should be typed into a terminal program prompt, output from terminal programs, data, and other content whose presentation is aided by fixed-width font.
 
 ## Communicating with The Project
 
+Join the [Rubinius Gitter](https://gitter.im/rubinius/rubinius) chatroom [![Gitter badge](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rubinius/rubinius-book?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) or email <community@rubinius.com>.
+
+
 ## Acknowledgments
+
+Thanks to [Evan Phoenix](https://twitter.com/evanphx) for creating Rubinius and writing a blog post about implementing continuations in the early, stackless virtual machine. Something clicked and I knew I wanted to work on Rubinius. Evan didn't have any particular qualifications to start a virtual machine project for a programming language rapidly growing in popularity. And he didn't need any. ["Whatever you can do, or dream you can do, begin it. Boldness has genius, power, and magic in it."](http://www.goethesociety.org/pages/quotescom.html) Thanks to Matz ([Matsumoto Yukihiro](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto)) for creating the Ruby programming language. The best teachers show you what *not* to do, and leaving the doing for you to figure out yourself. Thanks to the many Rubinius contributors for sharing your enthusiasm, time, and patience. Thanks to the many communities working to make tech and industry better for people, and for sharing that widely. Thanks to Kumiko and Miwa for your understanding, generosity, and patience. Finally, thanks to my mom for teaching me so much and being my hero for so long.
