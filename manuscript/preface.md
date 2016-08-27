@@ -115,7 +115,7 @@ Join the Rubinius Gitter chatroom [https://gitter.im/rubinius/rubinius](https://
 
 Thanks to [Evan Phoenix](https://twitter.com/evanphx) for creating Rubinius and writing a blog post about implementing continuations in the early, stackless virtual machine. When I read that, something clicked and I knew I wanted to work on Rubinius. Evan didn't have any particular qualifications to start a virtual machine project for a programming language rapidly growing in popularity. And he didn't need any. ["Whatever you can do, or dream you can do, begin it. Boldness has genius, power, and magic in it."](http://www.goethesociety.org/pages/quotescom.html)
 
-Thanks to Matz ([Matsumoto Yukihiro](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto)) for creating the Ruby programming language. The best teachers show you what *not* to do, and leaving the doing for you to figure out yourself.
+Thanks to Matz ([Matsumoto Yukihiro](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto)) for creating the Ruby programming language. The best teachers show you what *not* to do, and leave the doing for you to figure out yourself.
 
 Thanks to the many Rubinius contributors for sharing your enthusiasm, time, and patience. Thanks to the many communities working to make tech and industry better for people, and for sharing that widely.
 
