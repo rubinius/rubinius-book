@@ -1,3 +1,4 @@
+* [Dedication](manuscript/dedication.md)
 * [Preface](manuscript/preface.md)
 * [Part I - The Rubinius Language Platform](manuscript/part_i.md)
   * [Introducing Rubinius](manuscript/introducing_rubinius.md)

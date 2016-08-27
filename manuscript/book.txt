@@ -1,3 +1,4 @@
+dedication.md
 preface.md
 part_i.md
 introducing_rubinius.md
