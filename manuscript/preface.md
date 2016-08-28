@@ -2,11 +2,11 @@
 
 > Nothing pleases people more than to go on thinking what they have always thought, and at the same time imagine that they are thinking something new and daring; it combines the advantage of security with the delight of adventure &mdash; TS Eliot
 
-Nothing in this book is really new. No silver bullets that will make you wildly rich, world famous, or powerful as presidents. My hope is to change your view of programming.
+Nothing in this book is really new. No silver bullets that will make you wildly rich, world famous, or powerful as presidents. Instead, my hope is to change your view of programming.
 
-I want to change two things about how we typically view programming. First, programming is *too special*. Far too many people are excluded from programming. I want to make programming *mundane*. Second, programming is *too limited*. We have extremely crude and primitive tools for programming. Even worse, much of the conventional knowledge about programming is just wrong. I want to make programming a *powerful* tool broadly used to solve problems.
+I want to change two things about how we view programming. First, programming is *too special*. Far too many people are excluded from programming. I want to make programming *mundane*. Second, programming is *too limited*. We have extremely crude tools for programming. I want to make programming a *powerful* tool broadly used to solve problems.
 
-The false fables of programming are the most disturbing.
+Even worse, much of the conventional knowledge about programming is just wrong. The false fables of programming are the most disturbing.
 
 I've heard all of these: register virtual machines are faster than stack machines; optimizing compilers can't beat hand-tuned assembly language; garbage collection is way more costly than manual memory management; static typing makes programs safer than dynamic typing, reference counting garbage collectors aren't as good as tracing collectors; tracing JITs are better than method JITs; dynamically typed languages are slow; functional programming is better for concurrency than object-oriented programming; mutable state makes concurrency hard; event-oriented programs can handle more connections than programs using threads.
 
@@ -26,7 +26,7 @@ It's not that one *substitutes* for the other. We don't replace lines with point
 
 We would think it silly to be told in geometry we could have lines or points, but not both. But when we are programming, we tend to accept, as if some law of the universe, that we can have *either* static typing *or* dynamic typing, for example, and even worse, that one is "better" than the other.
 
-When I look at things I hear about programming that are untrue, I notice two sorts of confusion: mistaking things that are actually different as being the same, and things that are the same as being different. This led me to formulate **The Eight Fallacies of Programming**. These aren't some special laws or something, they are simply observations.
+When I hear things about programming that are untrue, I notice two sorts of confusion: mistaking things that are actually different as being the same, and things that are the same as being different. I've written down these observations (in somewhat humorous form) as **The Eight Fallacies of Programming**.
 
 1. *Same Scale*
 2. *Same Risk*
@@ -36,6 +36,12 @@ When I look at things I hear about programming that are untrue, I notice two sor
 6. *Same Temporality*
 7. *Same Order*
 8. *Same Applicability*
+
+What I've realized is that our fascination with "general purpose" programming languages is a vicious circle that feeds these biases *and* is powered by them. If problems are the same scale, then a general approach is likely the most efficient to solve them. And the flip side is true as well: if we have a *general* tool, it should reduce problems to a common solution.
+
+The truth is, the scale of problems varies across an enormous spectrum. If we're going to improve the way we build software, we need a more accurate model of programming. We need to recognize that programming is a behavioral science. It encompasses intentions and values, meaning and purpose, ethics, politics, and economics. It is intensely humanistic.
+
+This is a big change.
 
 > You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete. &mdash; R. Buckminster Fuller
 
