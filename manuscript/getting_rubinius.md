@@ -54,6 +54,10 @@ Use the following configure command in the build instructions below:
 
     $ ./configure --prefix=/path/to/install/dir/rbx-<version> --llvm-config=llvm-config-3.6
 
+**NOTE: If you are using LLVM 4.0, you _must_ link only with libc++. Use the following configure command in the build instructions below:**
+
+    $ CXXFLAGS='-nostdinc++ -I/usr/include/c++/v1' LDFLAGS='-stdlib=libc++ -lc++' ./configure --prefix=/path/to/install/dir/rbx-<version> --llvm-config=llvm-config-4.0 --cc=clang-4.0 --cxx=clang++-4.0
+
 #### Redhat/Fedora
 
     $ [sudo] yum install -y git clang-3.6 automake flex bison make ruby-devel rubygems llvm-static llvm-devel zlib-devel libyaml-devel openssl-devel gdbm-devel readline-devel ncurses-devel
