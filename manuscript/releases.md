@@ -44,3 +44,35 @@ Bundle updated!
 ```
 
 The script at `./scripts/gems.sh` is the canonical source, but effectively it is calling `bundle update` and then recording the names and versions of all gems in the bundle to store away in the `gems_list.txt` file.
+
+## Updating Preinstalled Gems
+
+Certain gems are preinstalled with every release of Rubinius. They are not part of the Standard Library but the Rubinius build and release process expects these gems to exist.
+
+```ruby
+gems = ["bundler-1.11.2.gem",
+        "minitest-5.11.1.gem",
+        "racc-1.4.14.gem",
+        "rake-12.1.0.gem",
+        "rdoc-4.3.0.gem",
+        "rb-readline-0.5.4.gem",
+        "rubysl-readline-2.0.2.gem"
+       ]
+```
+
+For example, `rake` version 12.1.0 is installed as part of the process. However, as of this writing the latest version of `rake` is 12.3.0. To update to this latest version, modify `build/scripts/preinstall_gems.rb` and edit the version number in that file. See below:
+
+```ruby
+gems = ["bundler-1.11.2.gem",
+        "minitest-5.11.1.gem",
+        "racc-1.4.14.gem",
+        "rake-12.3.0.gem", # <--- update version number to 12.3.0 from 12.1.0
+        "rdoc-4.3.0.gem",
+        "rb-readline-0.5.4.gem",
+        "rubysl-readline-2.0.2.gem"
+       ]
+```
+
+Second, the `gems_list.txt` file should be manually edited to include this new version number.
+
+After making these changes, be certain to rebuild Rubinius locally to confirm it builds correctly. In some cases it might be necessary to clean all untracked foreign files from the repository for a clean build. Run the command `git clean -fdx` to remove files and directories that are not part of the repository. Then execute the build and confirm it succeeds.
