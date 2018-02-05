@@ -1,3 +1,6 @@
+# Summary
+
+* [Introduction](README.md)
 * [Dedication](manuscript/dedication.md)
 * [Preface](manuscript/preface.md)
 * [Part I - The Rubinius Language Platform](manuscript/part_i.md)
@@ -25,6 +28,7 @@
     * [Time Profiles](manuscript/inspectability.md#time-profiles)
     * [Analysis](manuscript/inspectability.md#analysis)
   * [Managed Memory: A Future Plan](manuscript/managed_memory.md)
+  * [IO](manuscript/io.md)
   * [Garbage Collection: Stay in Touch to Stay Alive](manuscript/garbage_collection.md)
   * [Just-In-Time Compiler: Using the Machine Under the Machine](manuscript/jit_compiler.md)
   * [CodeDB: A Memory for Programs](manuscript/codedb.md)
@@ -36,3 +40,4 @@
   * [M](manuscript/m.md)
 * [Index](GLOSSARY.md)
 * [Bibliography](manuscript/bibliography.md)
+
