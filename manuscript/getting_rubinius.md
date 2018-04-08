@@ -86,9 +86,9 @@ Use the following platform-specific configure command in the build instructions 
 
 ### Building
 
-We are in the process of removing the Ruby build dependency to make the process of building Rubinius much easier. The new build process uses the `./build.sh` script in the source tarball, and is a work in progress.
+In the interest of making it easier to build Rubinius, we are in the process of replacing the conventional (ruby-dependent) build process with the one located at `./build.sh`. It is very much a work in progress, but once complete it will handle all platform dependencies, etc without requiring an initial MRI ruby install.
 
-Here's the conventional (ruby-dependent) way of building:
+For now, here's the conventional (ruby-dependent) way of building:
 
     $ [sudo] gem install bundler
     $ curl -OL http://releases.rubinius.com/rubinius-<version>.tar.bz2
