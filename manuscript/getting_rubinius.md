@@ -32,9 +32,14 @@ We build binaries for Heroku. Specify the latest Rubinius version in your applic
 
     ruby "2.2.2", :engine => "rbx", :engine_version => "3.31"
 
+
 ### Other Unix/Linux
 
-We would like to assist building packages and binaries for other Unix/Linux systems. We are removing the Ruby build dependency to make the process of building Rubinius much easier. If you'd like to help build Rubinius binaries or packages, join us in the Rubinius Gitter channel.
+
+We highly recommend using [ruby-install](https://github.com/postmodern/ruby-install) to build Rubinius instead of rbenv or RVM. ruby-install does a good job of making sure the pre-reqs are met, including getting a build ruby.
+
+We intend to eventually provide packages and binaries for other Unix/Linux systems. If you are interested in helping us get a Concourse CI build pipeline going, or in building binaries for a particular OS and sharing them, join us in the Rubinius Gitter channel.
+
 
 ## Building from Source Code
 
@@ -42,9 +47,12 @@ Source code tarballs are built for each release. To see which versions are avail
 
 ### Dependencies
 
+Rather than build Rubinius from source, we recommend using [ruby-install](https://github.com/postmodern/ruby-install). ruby-install does a good job of making sure the prereqs are met, including getting a build ruby. Eventually, the ruby build dependency will go away, and building from source will be as easy as `./build.sh`. But until then, we recommend giving ruby-install a go.
+
 Before building Rubinius from source, various dependencies need to be installed, based on your platform.
 
 One of the critical Rubinius dependencies is LLVM version 3.6+. Since LLVM takes a long time to build, we do not support OS versions that do not have modern LLVM binary packages available (e.g. Ubuntu 12.04).
+
 
 #### Ubuntu/Debian
 
@@ -77,6 +85,10 @@ Use the following platform-specific configure command in the build instructions 
     $ ./configure --prefix=/path/to/install/dir/rbx-<version> --llvm-config=$(brew --prefix llvm38)/bin/llvm-config-3.8
 
 ### Building
+
+We are in the process of removing the Ruby build dependency to make the process of building Rubinius much easier. The new build process uses the `./build.sh` script in the source tarball, and is a work in progress.
+
+Here's the conventional (ruby-dependent) way of building:
 
     $ [sudo] gem install bundler
     $ curl -OL http://releases.rubinius.com/rubinius-<version>.tar.bz2
