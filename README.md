@@ -1,3 +1,5 @@
+Gitbook was really cool when it was git-based. This content will be incorporated in the new [Rubinius website](https://rubinius.com) that uses [Markdoc](https://markdoc.dev).
+
 # The Rubinius Book
 
 This is a book about building a community and language platform.
